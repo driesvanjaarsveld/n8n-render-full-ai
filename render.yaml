@@ -23,7 +23,7 @@ services:
           property: port
       - key: PGUSER
         fromDatabase:
-          name: n8nDB
+          name: n8ndb_h3v7_user
           property: user
       - key: PGPASSWORD
         fromDatabase:
